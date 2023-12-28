@@ -3,10 +3,10 @@ import React from "react";
 
 const componentStyles = makeStyles({
   cardStyle: {
-    maxHeight: 240,
     backgroundColor: "#303947",
     borderRadius: 10,
     width: 240,
+    height: 240
   },
   twoLineTypography: {
     overflow: "hidden",
@@ -17,7 +17,7 @@ const componentStyles = makeStyles({
   },
 });
 
-function CourseCard() {
+const CourseCard = ({ imgUrl }) => {
   const classes = componentStyles();
   return (
     <Card
@@ -29,9 +29,11 @@ function CourseCard() {
     >
       <div>
         <CardMedia
+          style={{objectFit: 'cover'}}
           component="img"
           alt="ai_image"
-          image="https://st1.bollywoodlife.com/wp-content/uploads/2022/10/FotoJet-2022-10-08T205207.228.jpg"
+          image={imgUrl}
+          height="240"
         />
         <div
           style={{
@@ -40,7 +42,7 @@ function CourseCard() {
             left: 0,
             width: "100%",
             height: "100%",
-            background: "rgba(0, 0, 0, 0.4)",
+            background: "rgba(0, 0, 0, 0)",
           }}
         />
         {/* <div

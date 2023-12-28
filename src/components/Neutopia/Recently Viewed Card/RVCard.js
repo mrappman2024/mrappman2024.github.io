@@ -42,9 +42,9 @@ const componentStyles = makeStyles({
   },
 });
 
-function RVCard() {
-  const classes = componentStyles();
 
+const RVCard = ({ imgUrl }) => {
+  const classes = componentStyles();
   return (
     <Card
       style={{
@@ -59,7 +59,7 @@ function RVCard() {
         component="img"
         alt="ai_image"
         height="180"
-        image= "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/christmas.jpeg?alt=media&token=9eaa3d5f-a583-4d0e-a021-1cd37ab41391"
+        image= {imgUrl}
       />
       <CardContent>
         <Grid

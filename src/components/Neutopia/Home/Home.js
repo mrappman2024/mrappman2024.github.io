@@ -4,6 +4,7 @@ import "./Home.css";
 import RecentlyViewed from "../Recently Viewed/RecentlyViewed";
 import { Grid, Typography } from "@mui/material";
 import UpcomingEvents from "../Upcoming Events/UpcomingEvents";
+import Snowfall from "react-snowfall";
 
 function Home() {
   return (
@@ -39,10 +40,12 @@ function Home() {
         </Grid>
       </Grid>
       <UpcomingEvents/>
-      {/* <RecentlyViewed />
-      <Course />
-      <UpcomingEvents/> */}
+      {/* <RecentlyViewed/> */}
+      <Course/>
+      {/* <UpcomingEvents/> */}
+      <Snowfall color="#dee4fd" snowflakeCount={100}/>
     </div>
+    
   );
 }
 
