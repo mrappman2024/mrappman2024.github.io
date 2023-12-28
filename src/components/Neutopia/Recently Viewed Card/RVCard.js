@@ -59,7 +59,7 @@ function RVCard() {
         component="img"
         alt="ai_image"
         height="180"
-        image= "https://t4.ftcdn.net/jpg/05/48/47/69/360_F_548476955_wQZloOX3bhrzoIn7Q8YbqgUKvv9KHi2K.jpg"
+        image= "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/christmas.jpeg?alt=media&token=9eaa3d5f-a583-4d0e-a021-1cd37ab41391"
       />
       <CardContent>
         <Grid

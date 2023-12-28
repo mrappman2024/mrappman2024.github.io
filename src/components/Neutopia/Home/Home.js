@@ -19,11 +19,11 @@ function Home() {
           <Typography
             style={{
               color: "#ffffff",
-              fontSize: "40px",
-              fontFamily: "ManropeMedium",
+              fontSize: "35px",
+              fontFamily: "ManropeBold",
             }}
           >
-            HAPPY NEW YEAR 2024
+            WELCOME 2024
           </Typography>
           </Grid>
           <Grid item> 
@@ -34,13 +34,14 @@ function Home() {
               fontFamily: "ManropeLight",
             }}
           >
-            "Hoping the new year brings you the same love and laughter you always bring me."
+            "May the New Year bring us more opportunities to collaborate, innovate, and achieve success as a team. Happy New Year, colleagues!"
           </Typography>
         </Grid>
       </Grid>
-      <RecentlyViewed />
-      <Course />
       <UpcomingEvents/>
+      {/* <RecentlyViewed />
+      <Course />
+      <UpcomingEvents/> */}
     </div>
   );
 }
