@@ -23,6 +23,7 @@ function UpcomingEvents() {
       >
         Celebrations @ 2023
       </Typography>
+      
       <List style={{ display: "flex", overflowX: "auto" }}>
         <Stack direction="row" spacing={3}>
           {imageList.map((imgUrl) => (

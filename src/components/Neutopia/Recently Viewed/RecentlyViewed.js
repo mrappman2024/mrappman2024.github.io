@@ -13,7 +13,6 @@ function RecentlyViewed() {
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Third-Set%2Fphoto10.jpeg?alt=media&token=d430196f-9652-41ec-b3e5-9aa6756afb9f",
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Third-Set%2Fphoto6.jpeg?alt=media&token=b9470cd5-f436-4c65-b479-71fa71855f40",
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Third-Set%2Fphoto7.jpeg?alt=media&token=a76c0829-38a1-4254-9e99-9a224ceda036",
-    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Third-Set%2Fphoto8.jpeg?alt=media&token=86844abe-28d7-46ba-9351-8b8cfb1e05fb",
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Third-Set%2Fphoto8.jpeg?alt=media&token=f575978d-99be-4324-9993-cdd1ee7753a0",
   ];
   return (
