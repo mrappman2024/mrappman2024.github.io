@@ -19,9 +19,10 @@ function Home() {
         <Grid item> 
           <Typography
             style={{
+              letterSpacing: 3,
               color: "#ffffff",
-              fontSize: "35px",
-              fontFamily: "ManropeBold",
+              fontSize: "45px",
+              fontFamily: "ManropeMedium",
             }}
           >
             WELCOME 2024
@@ -42,8 +43,9 @@ function Home() {
       <UpcomingEvents/>
       {/* <RecentlyViewed/> */}
       <Course/>
+      <RecentlyViewed/>
       {/* <UpcomingEvents/> */}
-      <Snowfall color="#dee4fd" snowflakeCount={100}/>
+      <Snowfall color="#dee4fd" snowflakeCount={60}/>
     </div>
     
   );

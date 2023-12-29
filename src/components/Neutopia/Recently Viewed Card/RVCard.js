@@ -10,7 +10,7 @@ import { BookmarkAddRounded, FavoriteRounded } from "@mui/icons-material";
 const componentStyles = makeStyles({
   cardStyle: {
    //maxWidth: 320,
-    maxHeight: 292,
+    maxHeight: 302,
     backgroundColor: "#303947",
     borderRadius: 10,
     width: 320,
@@ -58,8 +58,8 @@ const RVCard = ({ imgUrl }) => {
         className={classes.cardMediaPadding}
         component="img"
         alt="ai_image"
-        height="180"
-        image= {imgUrl}
+        height="270"
+        image={imgUrl}
       />
       <CardContent>
         <Grid
@@ -68,7 +68,7 @@ const RVCard = ({ imgUrl }) => {
           alignItems="center"
           justifyContent="space-between"
         >
-          <Grid item xs={8}>
+          {/* <Grid item xs={8}>
             <Typography
               style={{
                 color: "#ffffff",
@@ -90,8 +90,8 @@ const RVCard = ({ imgUrl }) => {
             >
               Top Visual Effects Companies
             </Typography>
-          </Grid>
-          <Grid item>
+          </Grid> */}
+          {/* <Grid item>
             <Grid container>
               <Grid item>
                 <IconButton
@@ -110,7 +110,7 @@ const RVCard = ({ imgUrl }) => {
                 </IconButton>
               </Grid>
             </Grid>
-          </Grid>
+          </Grid> */}
         </Grid>
       </CardContent>
     </Card>

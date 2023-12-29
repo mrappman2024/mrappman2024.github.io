@@ -5,8 +5,8 @@ const componentStyles = makeStyles({
   cardStyle: {
     backgroundColor: "#303947",
     borderRadius: 10,
-    width: 240,
-    height: 240
+    width: 270,
+    height: 270
   },
   twoLineTypography: {
     overflow: "hidden",
@@ -33,7 +33,7 @@ const CourseCard = ({ imgUrl }) => {
           component="img"
           alt="ai_image"
           image={imgUrl}
-          height="240"
+          height="270"
         />
         <div
           style={{

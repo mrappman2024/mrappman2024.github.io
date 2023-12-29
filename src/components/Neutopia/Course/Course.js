@@ -6,10 +6,11 @@ function Course() {
   const imageList = [
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FnewOffice1.jpeg?alt=media&token=8b9243f1-90b4-4bee-8d14-0ff5f0ea724f",
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FplayConnect.jpeg?alt=media&token=55f70f0c-6bd7-4ec0-873e-e14dea2c7a7a",
-    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FhelpAlert.jpg?alt=media&token=3fade048-d0e8-4598-a8f3-db565f18de47",
-    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FsunniVoice.jpeg?alt=media&token=d337213b-d5cc-4d65-93d6-1ab52ad1b627",
+    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/playConnectNew.jpeg?alt=media&token=0d43bfd4-d78a-4547-8830-de306e1e498b",
     "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2Ftoppan.jpeg?alt=media&token=cf685428-c9bc-4639-9b4b-7e63133a6a28",
-    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2Fmaan.jpeg?alt=media&token=2f326c09-c613-4b31-8285-0cd0d78f1ec7"
+    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FhelpAlert.jpg?alt=media&token=3fade048-d0e8-4598-a8f3-db565f18de47",
+    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2Fmaan.jpeg?alt=media&token=2f326c09-c613-4b31-8285-0cd0d78f1ec7",
+    "https://firebasestorage.googleapis.com/v0/b/react-demo-788ae.appspot.com/o/Second-Set%2FsunniVoice.jpeg?alt=media&token=d337213b-d5cc-4d65-93d6-1ab52ad1b627",
   ];
   return (
     <div style={{paddingTop: '20px', paddingLeft:"20px",paddingRight:"20px"}}>

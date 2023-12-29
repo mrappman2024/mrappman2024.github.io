@@ -21,7 +21,7 @@ function UpcomingEvents() {
           fontFamily: "ManropeMedium",
         }}
       >
-        Team @ 2023 Celebrations Event
+        Celebrations @ 2023
       </Typography>
       <List style={{ display: "flex", overflowX: "auto" }}>
         <Stack direction="row" spacing={3}>
