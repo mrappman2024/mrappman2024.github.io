@@ -52,7 +52,9 @@ function Home() {
               border: '1px solid #000', 
               padding: '15px',
               borderColor: "#D5AF6C",
-              borderRadius:"40px"
+              borderRadius:"40px",
+              textAlign: 'center',
+
             }}
           >
             A glimpse into the moments of 2023
